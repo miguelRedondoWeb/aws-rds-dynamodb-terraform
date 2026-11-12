@@ -62,6 +62,17 @@ Terraform 1.16.6, AWS Provider 5.100.0, AWS CLI 2.38.4, Amazon RDS MySQL 8.4.13,
 └── README.md
 ```
 
+### Amazon RDS CA certificate
+
+Download the official Amazon RDS CA bundle before connecting to MySQL:
+
+```powershell
+New-Item -ItemType Directory -Force certs
+Invoke-WebRequest -Uri "https://truststore.pki.rds.amazonaws.com/global/global-bundle.pem" -OutFile "certs/global-bundle.pem"
+```
+
+The Python connection script uses this certificate to verify the RDS server identity over TLS. The certificate is public and is not an AWS credential.
+
 ## Reproduction outline
 
 > **Cost notice:** running `terraform apply` provisions billable cloud resources. Review the expected costs and permissions first. Never leave exercise resources running unnecessarily.
