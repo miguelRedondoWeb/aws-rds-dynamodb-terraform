@@ -1,0 +1,5 @@
+
+# Ejercicio 6 - Ejemplo de variables
+# Sustituir por la IP publica del equipo autorizado
+
+mi_ip_publica = "203.0.113.10/32"

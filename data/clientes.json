@@ -1,0 +1,23 @@
+
+[
+  {
+    "cliente_id": 1,
+    "nombre": "Ana Martin",
+    "ciudad": "Madrid"
+  },
+  {
+    "cliente_id": 2,
+    "nombre": "Luis Garcia",
+    "ciudad": "Valencia"
+  },
+  {
+    "cliente_id": 3,
+    "nombre": "Marta Lopez",
+    "ciudad": "Sevilla"
+  },
+  {
+    "cliente_id": 4,
+    "nombre": "Carlos Ruiz",
+    "ciudad": "Bilbao"
+  }
+]

@@ -1,0 +1,9 @@
+
+{
+  ":pk": {
+    "S": "CLIENTE#1"
+  },
+  ":prefijo": {
+    "S": "PEDIDO#"
+  }
+}
